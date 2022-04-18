@@ -27,4 +27,4 @@
 .dart_tool/
 .packages
 build/
-./test/debug_inspector_test.dart
+/test/
