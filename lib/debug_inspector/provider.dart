@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:rxdart/rxdart.dart';
 
-import 'data_base.dart';
-import 'model.dart';
+import '../debug_inspector.dart';
 
 class DebugInspectorProvider extends ChangeNotifier {
   bool isInit = false;

@@ -1,8 +1,7 @@
-import 'package:debug_inspector/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'model.dart';
+import '../debug_inspector.dart';
 
 class PerformanceDebugSwitcher extends StatelessWidget {
   const PerformanceDebugSwitcher({Key? key}) : super(key: key);

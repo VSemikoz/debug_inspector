@@ -1,6 +1,6 @@
 import 'package:flutter/rendering.dart';
 
-import 'data_base.dart';
+import '../debug_inspector.dart';
 
 Future setDebugInspectorValues() async {
   await PerformanceStorage.initHive();
